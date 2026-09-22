@@ -68,11 +68,11 @@ Because of the extensive history of this project, cloning the datatracker projec
 
 - To fetch only up to the 10 latest commits:
     ```sh
-    git clone --depth=10 https://github.com/USERNAME/datatracker.git
+    git clone --depth=10 https://github.com/CboneloGatePro/datatracker.git
     ```
 - To fetch only up to a specific date:
     ```sh
-    git clone --shallow-since=DATE https://github.com/USERNAME/datatracker.git
+    git clone --shallow-since=DATE https://github.com/CboneloGatePro/datatracker.git
     ```
 
 #### The tl;dr to get going
@@ -92,7 +92,7 @@ ietf/manage.py test --settings=settings_test
 
 Note that we recently moved the datatracker onto PostgreSQL - you may still find older documentation that suggests testing with settings_sqlitetest. That will no longer work.
 
-For a more detailed description of getting going, see [docker/README.md](docker/README.md).
+For a more detailed description of getting going, see [docker/README.md](docker/README.md CboneloGatePro).
 
 #### Overview of the datatracker models
 
